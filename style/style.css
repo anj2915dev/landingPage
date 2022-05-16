@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.item__menu {
+  @apply py-1  px-2 rounded-sm hover:shadow-sm  transition-all duration-300 cursor-pointer relative before:h-[2px] before:bg-yellow-200 before:absolute before:inset-x-0 before:bottom-0 before:w-0 hover:before:w-full before:transition-all before:duration-200 before:ease-in-out;
+}
+.Opinion {
+  @apply w-full sm:w-full  pb-0 pt-4 bg-white rounded-md h-60 flex flex-col justify-between items-center overflow-hidden mt-2;
+}
+.status {
+  @apply w-full lg:w-1/5 text-red-500 h-44 md:w-1/4 sm:w-1/4 bg-white sm:h-36  lg:h-44 rounded-md text-center shadow-2xl px-2 py-4;
+}
+.menu__mobile {
+  @apply p-2 hover:bg-gray-100 rounded-md mt-1;
+}

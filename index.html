@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/btnmenu.css">
+
+
+    <title>طب رستا</title>
+
+</head>
+
+<body class=" bg-gray-50  ">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <div class="  sm:container py-5 relative">
+        <!-- start navbars -->
+        <div class=" relative">
+            <nav class=" px-1 py-2 bg-white  sm:bg-gray-50 rounded-md w-full inline-flex justify-between items-center">
+
+
+                <div class="btn__menu sm:hidden">
+                    <!-- start btn menu -->
+
+                    <div class="plate plate1" onclick="this.classList.toggle('active')">
+                        <svg class="svg__menu  burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line line1" d="M 30,65 H 70" />
+                            <path class="line line2"
+                                d="M 70,50 H 30 C 30,50 18.644068,50.320751 18.644068,36.016949 C 18.644068,21.712696 24.988973,6.5812347 38.79661,11.016949 C 52.604247,15.452663 46.423729,62.711864 46.423729,62.711864 L 50.423729,49.152542 L 50.423729,16.101695" />
+                            <path class="line line3"
+                                d="M 30,35 H 70 C 70,35 80.084746,36.737688 80.084746,25.423729 C 80.084746,19.599612 75.882239,9.3123528 64.711864,13.559322 C 53.541489,17.806291 54.423729,62.711864 54.423729,62.711864 L 50.423729,49.152542 V 16.101695" />
+                        </svg>
+                        <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                            <path class="line" d="M 34,32 L 66,68" />
+                            <path class="line" d="M 66,32 L 34,68" />
+                        </svg>
+                    </div>
+
+
+
+                </div>
+                <!-- end btn menu -->
+                <div>
+                    logo
+                </div>
+                <ul class="hidden sm:flex sm:w-full sm:justify-around lg:w-1/3 lg:justify-between">
+                    <li class="item__menu ">
+                        خانه
+                    </li>
+                    <li class="item__menu">
+                        دانلود مقاله
+                    </li>
+                    <li class="item__menu">
+                        درباره ما
+                    </li>
+                    <li class="item__menu">
+                        باشگاه مشتریان
+                    </li>
+                </ul>
+
+                <button
+                    class=" bg-indigo-500 text-white text-sm sm:text-sm px-2 py-2 sm:px-4 sm:py-2 text-center rounded-md  font-bold hover:bg-indigo-600  ">ثبت
+                    درخواست</button>
+            </nav>
+            <!-- start nav mobile -->
+            <ul class="menu h-0 overflow-hidden  transition-all duration-300  bg-white z-50  absolute w-full sm:hidden">
+                <li class="menu__mobile">
+                    خانه
+                </li>
+                <li class="menu__mobile">
+                    دانلود مقاله
+                </li>
+                <li class="menu__mobile">
+                    درباره ما
+                </li>
+                <li class="menu__mobile">
+                    باشگاه مشتریان
+                </li>
+            </ul>
+        </div>
+        <!-- end navbar -->
+
+        <!-- start  content -->
+        <div
+            class=" flex flex-col-reverse items-center  sm:flex-row rounded-md bg-gradient-to-r from-blue-200 via-blue-300 to-blue-500 justify-between mt-2.5 h-auto  ">
+
+            <!-- tirle -->
+            <div class=" w-1/2  text-center  inline-flex flex-col items-center justify-center leading-6">
+                <h1 class=" text-center sm:text-2xl font-bold tracking-wide"> به <span
+                        class="  tracking-widest text-indigo-800">
+                        طب رستا
+                    </span> خوش آمدید
+
+                </h1>
+                <h1 class="ext-center sm:text-2xl font-bold mt-3 -tracking-tighter">
+                    مراقب سلامت ، همیشه همراهتان هستیم
+                </h1>
+                <p class=" mt-2">اینجا به بهترین نحو به شما خدمت رسانی میشود</p>
+                <button
+                    class=" text-sm px-4 py-3 mb-2 sm:mb-0 rounded-md font-bold text-white  bg-blue-500  mt-4 transition-all duration-150 ease-in-out shadow-md  focus:ring-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-offset-white ">
+                    ثبت درخواست</button>
+            </div>
+            <div class="caret-lime-50 sm:w-1/2 flex justify-center z-40 ">
+                <!-- img content -->
+
+                <!-- <a href='https://pngtree.com/so/handsome'>handsome png from pngtree.com/</a> -->
+                <img src="img/doctor.png" class="lg:w-[30rem] lg:h-[30rem]" alt="">
+
+
+            </div>
+        </div>
+        <!-- start status -->
+        <div
+            class="w-full  p-5 sm:flex sm:justify-center   sm:absolute sm:top-[21rem] md:top-[23rem]  lg:top-[30rem]  inset-x-0 grid grid-cols-6 gap-5">
+            <div class="status  col-span-3  ">
+                a
+            </div>
+            <div class="status  col-span-3 ">
+                a
+            </div>
+            <div class="status col-span-6  ">
+                a
+            </div>
+
+        </div>
+        <!-- end status -->
+        <section class=" px-2">
+
+
+            <div class=" bg-white  rounded-md m-2 flex sm:mt-36  ">
+                <img src="img/medical-research-animate.svg" class="img w-[40%]" alt="">
+                <div class="content__text w-[60%] text-center flex flex-col justify-center items-center">
+
+                    <h1 class=" lg:text-3xl sm:text-2xl text-slate-600 font-bold">اهمیت لوازم پزشکی</h1>
+                    <p class=" lg:text-2xl sm:text-xl text-slate-600 font-bold">اهمیت لوازم پزشکی</p>
+                    <h1 class=" lg:text-2xl sm:text-xl text-slate-600 font-bold">اهمیت لوازم پزشکی</h1>
+                </div>
+
+
+
+            </div>
+
+
+            <!-- start  -->
+            <h1 class="title text-center   text-3xl font-bold my-6 decoration-current text-indigo-700 ">چرا به طب رستا
+                مراجعه کنیم
+            </h1>
+            <div class="why p-5  rounded-md flex flex-col sm:flex-row justify-center gap-7 ">
+                <div class=" p-1 shadow-md bg-white w-full  md:w-1/2 h-60 lg:h-72  rounded-md">
+
+                </div>
+                <div class="headline p-1 shadow-md  bg-blue-500 w-full h-60 md:w-1/2 lg:h-72  rounded-md">
+
+                </div>
+                <div class=" p-1 shadow-md  bg-white   w-full  md:w-1/2 h-60 lg:h-72  rounded-md">
+
+                </div>
+            </div>
+            <h1 class="title text-2xl font-bold text-center m-5 text-indigo-700">تاریخچه طب رستا</h1>
+            <div class=" w-full bg-white  rounded-md  text-right p-1 flex flex-col-reverse md:flex-row justify-between">
+                <div class=" w-full sm:w-full md:w-full  flex justify-center items-center ">
+                    <p class="content__text text-sm sm:text-sm lg:text-xl  px-5 w-full text-slate-800 tracking-wide  ">
+                        شرکت تعاونی رستا طب در سال 1398 با هدف کاهش بخشی از آلام و دغدغه‌های بیماران و خانواده‌های آن‌ها
+                        و
+                        همچنین کاهش بار زحمات کادر درمان توسط جمعی از همین سفیدپوشان که بالغ به 10 سال افتخار همراهی و
+                        خدمت
+                        به مردم را دارند تأسیس و فعالیت خود را آغاز کرده. رستا طب در تلاش است، مردم و جامعه را در حفظ
+                        سلامت
+                        خود از طریق راهنمایی، آموزش‌های کاربردی و ارائه خدمات (پرستاری - پزشکی) در کمترین زمان ممکن یاری
+                        نماید؛ و در این خصوص موفق به پذیرش در پارک علم و فناوری (وزارت علوم) و مرکز رشد و فناوری سلامت
+                        واحد
+                        آی‌تی (علوم پزشکی) گردیده است.
+                    </p>
+                </div>
+                <div class=" w-full   flex sm:justify-center justify-end">
+                    <img src="img/insurance-animate.svg" class="img sm:w-3/4 md:w-full" alt="">
+                </div>
+
+
+            </div>
+            <!-- start Opinion -->
+            <div class="opinions bg-blue-400 mt-5 rounded-xl pt-4 shadow-xl ">
+                <h1 class=" text-white text-2xl font-bold  text-center ">نظرات شما</h1>
+                <h2 class=" text-sm mx-5 px-4 text-slate-500  cursor-pointer ">نمایش همه نظرها
+
+                    <span>(5)</span>
+                </h2>
+                <div class=" w-full sm:grid sm:grid-cols-3  lg:grid-cols-5 p-2   gap-5  overflow-hidden h-[16.5rem] ">
+                    <div class="   Opinion ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class=" h-3/6">
+                            <p>
+                                محتوا
+                            </p>
+                        </div>
+                        <h3 class=" bg-slate-100  w-full h-1/6 text-center py-2">alireza</h3>
+                    </div>
+                    <div class=" Opinion ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class=" h-3/6">
+                            <p>
+                                محتوا
+                            </p>
+                        </div>
+                        <h3 class=" bg-slate-100  w-full h-1/6 text-center py-2">alireza</h3>
+                    </div>
+                    <div class=" Opinion ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class=" h-3/6">
+                            <p>
+                                محتوا
+                            </p>
+                        </div>
+                        <h3 class=" bg-slate-100  w-full h-1/6 text-center py-2">alireza</h3>
+                    </div>
+                    <div class=" Opinion">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class=" h-3/6">
+                            <p>
+                                محتوا
+                            </p>
+                        </div>
+                        <h3 class=" bg-slate-100  w-full h-1/6 text-center py-2">alireza</h3>
+                    </div>
+                    <div class=" Opinion ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" h-12 w-12" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        <div class=" h-3/6">
+                            <p>
+                                محتوا
+                            </p>
+                        </div>
+                        <h3 class=" bg-slate-100  w-full h-1/6 text-center py-2">alireza</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- start ebate -->
+    <footer class="p-5 bg-yellow-500 mt-5 grid grid-cols-2    rounded-t-md  sm:grid-cols-6">
+        <div class=" col-span-2  grid grid-cols-3 md:col-span-3 sm:grid-cols-2 md:grid-cols-2 gap-x-3 w-full">
+            <h2 class=" font-bold text-xl text-center sm:text-right col-span-3 sm:col-span-2 md:col-span-2  ">مجوز ها
+            </h2>
+            <h3 class=" text-right text-sm mt-2 "> <span class="font-vold mx-1">
+                    1-
+                </span> پذیرش در پارک علم و فناوری وابسته به وزارت علوم تحقیقات و فناوری
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    2-
+                </span>پروانه کسب تولید نرم افزار کسب و کار از وزارت صنعت معدن و تجارت
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    3-
+                </span>پروانه کسب الکترونیکی واحد صنفی از وزارت صنعت معدن و تجارت
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    4-
+                </span>پروانه کسب خدمات پرستاری در منزل از وزارت بهداشت درمان و آموزش پزشکی
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    5-
+                </span>مجوز فعالیت از سازمان نظام صنفی رایانه ای
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    6-
+                </span>دریافت کد شامد از مرکز فناوری اطلاعات رسانه دیجیتال وزارت فرهنگ و ارشاد اسلامی
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    7-
+                </span>گواهی ابداعات و اختراعات از دانشگاه علوم پزشکی
+            </h3>
+
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    8-
+                </span>ثبت طرح باعنوان HSR در دانشگاه علوم پزشکی
+            </h3>
+
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    9-
+                </span>عضویت در سامانه افتا
+            </h3>
+
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    10-
+                </span>عضویت در سامانه ستاد ایران
+            </h3>
+            <h3 class=" text-right text-sm mt-2"> <span class="font-vold mx-1">
+                    11-
+                </span>تائید صلاحیت و عضویت در انجمن صنفی کارفرمایی
+            </h3>
+
+
+        </div>
+        <div class="w-full   ml-5 col-span-1 sm:col-span-2 ">
+            <h2 class=" font-bold text-xl  text-center">تماس با ما</h2>
+            <h2 class=" font-bold text-xl text-slate-700 mt-2 text-center  "> 54339150 (071)</h2>
+            <h3 class="text-center mt-2 "> فکس: 54339150 (071)</h3>
+            <h3 class="text-center mt-2 "> شماره موبایل: 09045045566</h3>
+            <h3 class="text-center mt-2 "> <span class="font-bold">آدرس:</span> جهرم، پارک علم و فناوری، شرکت تعاونی
+                مراقب طب رستا</h3>
+            <h3 class="text-center mt-2 flex justify-center items-center"><i class='bx bx-envelope'></i>
+                <span>test@moragheb.com</span>
+            </h3>
+
+
+
+        </div>
+        <div class="w-full  flex justify-center items-center col-span-1">
+            <img src="img/en.png" alt="">
+        </div>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
